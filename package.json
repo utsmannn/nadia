@@ -1,0 +1,30 @@
+{
+  "bin": {
+    "nadia": "jdeploy-bundle/jdeploy.js"
+  },
+  "author": "Muhammad Utsman",
+  "description": "Android App Bundle Installer",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": "",
+  "version": "1.0.20",
+  "jdeploy": {
+    "jdk": false,
+    "javaVersion": "11",
+    "jar": "build/libs/nadia-1.0.20.jar",
+    "javafx": false,
+    "title": "Nadia"
+  },
+  "dependencies": {
+    "njre": "^0.2.0",
+    "shelljs": "^0.8.4"
+  },
+  "license": "ISC",
+  "name": "nadia",
+  "files": [
+    "jdeploy-bundle"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
