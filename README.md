@@ -17,6 +17,15 @@
 
 ---
 
+<p align="center">
+<a href="https://youtu.be/4EI-TLq7pxs" target="_blank">
+ <img src="https://i.ibb.co/rpj6MNK/Screen-Shot-2022-07-25-at-08-59-02.png" alt="Watch the video" width="800" />
+</a><br>
+<a href="https://youtu.be/4EI-TLq7pxs" target="_blank">See on youtube</a>
+</p>
+
+---
+
 # Install
 ### Npm required
 https://nodejs.org/en/download/
