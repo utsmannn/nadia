@@ -30,7 +30,7 @@ class Application : CliktCommand(help = """
     }
 
     private val keyStore by option("-k", "--keystore", help = "Keystore of aab file").file().required().validate {
-        require(it.extension == "keystore") {
+        require(it.extension == "keystore" || it.extension == "jks" ) {
             "Keystore invalid!"
         }
     }
